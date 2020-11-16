@@ -4,7 +4,7 @@ a = int(input('Введите результат дистанции 1 дня: ')
 b = int(input('Введите требуемую дистанцию: '))
 new_result = 0.1
 
-while a > b:
+while b > a:
     a = a + (a * new_result)
 
 print(f'На {round(a)} день спортсмен достиг результат в не менее {b} км')
